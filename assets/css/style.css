@@ -180,8 +180,6 @@ text--secondary
     .article__information--item > p {
       font-size: 1.5rem;
       font-weight: 700; }
-    .article__information--item > p:nth-child(1) {
-      color: #222; }
 
 .resume--item--progress {
   display: flex;
@@ -230,7 +228,6 @@ progress::-webkit-progress-value {
   margin: 0.5rem; }
 
 .form__label {
-  color: #222;
   font-size: 1.2rem;
   font-weight: 700;
   text-transform: capitalize; }
@@ -261,7 +258,6 @@ progress::-webkit-progress-value {
     box-shadow: 0 0 3px 2px transparent;
     border-radius: 2rem; }
     .input--search__box > label {
-      color: #333;
       position: absolute;
       top: 30%;
       left: 5%;
@@ -296,7 +292,8 @@ progress::-webkit-progress-value {
     left: 37%;
     width: 30%;
     height: 5rem;
-    background-color: #ff6b6b; }
+    background-color: #ff6b6b;
+    z-index: -1; }
 
 .home {
   /* 
@@ -723,7 +720,6 @@ progress::-webkit-progress-value {
   .us--box__icons--item {
     display: flex;
     align-items: baseline;
-    color: #111;
     font-size: 1.9rem;
     margin-top: 3rem; }
     @media only screen and (max-width: 1079px) {
@@ -759,6 +755,21 @@ progress::-webkit-progress-value {
   background-color: #212529;
   color: #fff !important;
   background-image: unset; }
+
+.dark .home__content--item__blog--header__link {
+  color: #fff; }
+
+.dark .resume--graph--item__line {
+  color: #fff; }
+
+.dark .resume--item--progress__item > label {
+  color: #fff; }
+
+.dark .bio--item__about-me__bio--information--item > p:nth-child(1) {
+  color: #fff; }
+
+.dark .fa-dot-circle {
+  color: #fff; }
 
 .dark.home__sidebar {
   background-color: #212529;

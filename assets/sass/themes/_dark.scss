@@ -20,12 +20,28 @@
   color: #fff !important;
   background-image: unset;
 }
-
+.dark .home__content--item__blog--header__link
+{
+  color: #fff;
+}
+.dark .resume--graph--item__line{
+  color: #fff;
+}
+.dark .resume--item--progress__item>label{
+  color: #fff;
+}
+.dark .bio--item__about-me__bio--information--item > p:nth-child(1){
+  color: #fff;
+}
+.dark .fa-dot-circle{
+  color: #fff;
+}
 .dark.home__sidebar{
   background-color: #212529;
   background-image: unset;
 
 }
+
 .dark.home__sidebar--item{
   background-color: #212529;
 
