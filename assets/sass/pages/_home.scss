@@ -5,6 +5,8 @@
       rgba(#fff, 0.3),
       rgba(#fff, 0)
     );
+    color: #222;
+
     box-shadow: 0 0 3px 2px #777;
     width: 75%;
     height: 55rem;
@@ -91,8 +93,11 @@
       transition: background-color ease-in-out 0.5s;
       &:hover {
         background-color: $red--light;
-        color: #e0e6fb;
         box-shadow: 0 0 8px 2px $red--light;
+        &>i{
+        color: #e0e6fb;
+
+        }
       }
     }
   }
