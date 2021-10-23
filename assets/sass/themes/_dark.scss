@@ -41,6 +41,23 @@
   background-image: unset;
 
 }
+.dark .resume--item__child--info{
+  &>p{
+  color: #fff !important;
+
+  }
+
+}
+.dark .resume--item__child{
+  background-color: #212529;
+  background-image: unset;
+  box-shadow: 0 0 3px 2px #000;
+  &>p{
+    &>span{
+      color: #fff;
+    }
+  }
+}
 
 .dark.home__sidebar--item{
   background-color: #212529;

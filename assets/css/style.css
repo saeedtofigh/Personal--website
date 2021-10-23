@@ -243,9 +243,11 @@ progress::-webkit-progress-value {
   font-size: 1.5rem;
   padding: 1rem;
   border-radius: 8px;
-  cursor: pointer; }
+  cursor: pointer;
+  transition: all ease 0.5s; }
   .form--btn:hover {
-    box-shadow: 0 0 3px 2px #ff6b6b; }
+    box-shadow: 0 0 2px 1px #ff6b6b;
+    background-color: rgba(255, 107, 107, 0.8); }
 
 .input--search {
   border: unset;
@@ -618,7 +620,7 @@ progress::-webkit-progress-value {
       right: 0;
       bottom: 0;
       color: #ff6b6b;
-      font-weight: 700;
+      font-weight: 900;
       padding: 0.5rem; }
       .resume--item__child > p > span {
         color: #222; }
@@ -633,7 +635,8 @@ progress::-webkit-progress-value {
         font-size: 1.3rem;
         color: #777;
         text-align: justify;
-        width: 32rem; }
+        width: 32rem;
+        font-weight: 900; }
   .resume--item__client--says {
     margin-top: 2rem; }
   .resume--item__information {
@@ -813,6 +816,16 @@ progress::-webkit-progress-value {
 .dark.home__sidebar {
   background-color: #212529;
   background-image: unset; }
+
+.dark .resume--item__child--info > p {
+  color: #fff !important; }
+
+.dark .resume--item__child {
+  background-color: #212529;
+  background-image: unset;
+  box-shadow: 0 0 3px 2px #000; }
+  .dark .resume--item__child > p > span {
+    color: #fff; }
 
 .dark.home__sidebar--item {
   background-color: #212529; }

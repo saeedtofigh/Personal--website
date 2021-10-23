@@ -34,8 +34,10 @@
     padding: 1rem;
     border-radius: 8px;
     cursor: pointer;
+    transition: all ease 0.5s;
     &:hover {
-      box-shadow: 0 0 3px 2px $red--light;
+      box-shadow: 0 0 2px 1px $red--light;
+      background-color: rgba($red--light, 0.8);
     }
   }
 }

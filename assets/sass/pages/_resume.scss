@@ -31,7 +31,7 @@
       right: 0;
       bottom: 0;
       color: $red--light;
-      font-weight: 700;
+      font-weight: 900;
       padding: 0.5rem;
       &>span{
         color: #222;
@@ -51,6 +51,8 @@
         // width: 30%;
         text-align: justify;
         width: 32rem;
+      font-weight: 900;
+
       }
     }
   }
