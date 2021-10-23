@@ -597,6 +597,45 @@ progress::-webkit-progress-value {
 .resume--item {
   width: 100%;
   height: 35rem; }
+  .resume--item__information--container {
+    overflow-x: scroll;
+    width: 110%; }
+    .resume--item__information--container::-webkit-scrollbar {
+      display: none; }
+  .resume--item__scroll {
+    scroll-snap-type: x mandatory;
+    display: flex;
+    width: 220%;
+    justify-content: space-evenly; }
+  .resume--item__child {
+    border-radius: 4px;
+    scroll-snap-align: start;
+    background-image: linear-gradient(to left bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+    width: 40rem;
+    position: relative; }
+    .resume--item__child > p {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      color: #ff6b6b;
+      font-weight: 700;
+      padding: 0.5rem; }
+      .resume--item__child > p > span {
+        color: #222; }
+    .resume--item__child--info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem; }
+      .resume--item__child--info > .fa {
+        font-size: 1.5rem; }
+      .resume--item__child--info > p {
+        font-size: 1.3rem;
+        color: #777;
+        text-align: justify;
+        width: 32rem; }
+  .resume--item__client--says {
+    margin-top: 2rem; }
   .resume--item__information {
     display: grid;
     place-items: center; }
